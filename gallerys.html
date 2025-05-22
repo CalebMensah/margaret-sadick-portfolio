@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Professional Portfolio</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">MS</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallerys.html">Gallery</a></li>
+            </ul>
+            <div id="hamburger" class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>My Gallery</h1>
+            <p>A visual journey through my creative work and professional projects</p>
+        </div>
+    </section>
+
+    <!-- Gallery Tabs -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="tab-navigation">
+                <button class="tab-btn active" data-tab="photos">Photos</button>
+                <button class="tab-btn" data-tab="videos">Videos</button>
+            </div>
+
+            <!-- Photos Tab -->
+            <div class="tab-content active" id="photos">
+                <div class="section-header">
+                    <h2>Photography</h2>
+                    <p>Capturing moments and creating visual stories</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="hobby">
+                        <img src="/images/IMG-20250521-WA0033.jpg" alt="Creative project showcase">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Creative Work</h3>
+                                <p>Personal Project</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="professional">
+                        <img src="/images/IMG-20250521-WA0034.jpg" alt="Professional photography">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Professional Work</h3>
+                                <p>Client Project</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="hobby">
+                        <img src="/images/IMG-20250521-WA0035.jpg" alt="Hobby photography">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Hobby Project</h3>
+                                <p>Personal Interest</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="professional">
+                        <img src="/images/IMG-20250521-WA0036.jpg" alt="Portfolio piece">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Portfolio Piece</h3>
+                                <p>Featured Work</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="hobby">
+                        <img src="/images/IMG-20250521-WA0037.jpg" alt="Creative expression">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Creative Expression</h3>
+                                <p>Art Project</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="professional">
+                        <img src="/images/IMG-20250521-WA0038.jpg" alt="Professional showcase">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Professional Showcase</h3>
+                                <p>Commercial Work</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="hobby">
+                        <img src="/images/IMG-20250521-WA0039.jpg" alt="Personal project">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Personal Project</h3>
+                                <p>Experimental Work</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="professional">
+                        <img src="/images/IMG-20250521-WA0040.jpg" alt="Client work">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Client Work</h3>
+                                <p>Professional Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="professional">
+                        <img src="/images/IMG-20250521-WA0041.jpg" alt="Client work">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Client Work</h3>
+                                <p>Professional Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="professional">
+                        <img src="/images/IMG-20250521-WA0042.jpg" alt="Client work">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Client Work</h3>
+                                <p>Professional Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="professional">
+                        <img src="/images/IMG-20250521-WA0043.jpg" alt="Client work">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Client Work</h3>
+                                <p>Professional Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="professional">
+                        <img src="/images/IMG-20250521-WA0044.jpg" alt="Client work">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>Client Work</h3>
+                                <p>Professional Service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Videos Tab -->
+            <div class="tab-content " id="videos">
+                <div class="section-header">
+                    <h2>Video Portfolio</h2>
+                    <p>Motion graphics, documentaries, and creative video content</p>
+                </div>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0045.mp4" type="video/mp4">
+                                
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Creative Showcase</h3>
+                            <p>A compilation of my recent creative projects and artistic endeavors.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0046.mp4" type="video/mp4">
+                                <source src="videos/professional-demo-reel.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Professional Demo Reel</h3>
+                            <p>Highlights from professional projects and client collaborations.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0047.mp4" type="video/mp4">
+                                <source src="videos/behind-the-scenes.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Behind the Scenes</h3>
+                            <p>A look into my creative process and workspace environment.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0048.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0049.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0050.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0051.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0052.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                     <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0053.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0054.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0055.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0056.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0057.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0058.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0059.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0060.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0061.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0062.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0063.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-container">
+                            <video controls preload="metadata" poster="/api/placeholder/560/315">
+                                <source src="/videos/VID-20250521-WA0064.mp4" type="video/mp4">
+                                <source src="videos/timelapse-creation.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-info">
+                            <h3>Time-lapse Creation</h3>
+                            <p>Watch the creation process of one of my featured projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Follow me on social media:</p>
+                <ul class="social-links">
+                    <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/the_styleliche" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@the_styliche1" aria-label="TikTok"><i class="fab fa-tiktok"></i></a></li>
+                </ul>
+            </div>
+            <p class="copyright">&copy; 2024 Margaret Sadick | Fashion Designer & Creative Professional</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Tab functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const targetTab = btn.getAttribute('data-tab');
+                
+                // Remove active class from all tabs and buttons
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding content
+                btn.classList.add('active');
+                document.getElementById(targetTab).classList.add('active');
+            });
+        });
+
+        // Gallery item hover effects
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        galleryItems.forEach(item => {
+            item.addEventListener('mouseenter', () => {
+                item.style.transform = 'scale(1.02)';
+            });
+            
+            item.addEventListener('mouseleave', () => {
+                item.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>
