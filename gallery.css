@@ -121,7 +121,7 @@ nav.scrolled {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/images/me.jpg') center/cover;
+    background: url('images/me.jpg') center/cover;
     opacity: 0.1;
     z-index: 1;
 }
